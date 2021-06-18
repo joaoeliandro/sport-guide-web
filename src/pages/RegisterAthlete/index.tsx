@@ -8,7 +8,7 @@ import authorImg from '../../assets/author.jpeg';
 import { LogoContainer, Header, Info, ContainerInfo } from './styles';
 
 
-const Author: React.FC = () => {
+const RegisterAthlete: React.FC = () => {
   return (
     <>
       <Header>
@@ -62,4 +62,4 @@ const Author: React.FC = () => {
   );
 }
 
-export default Author;
+export default RegisterAthlete;

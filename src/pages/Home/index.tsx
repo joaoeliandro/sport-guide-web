@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/logo.svg';
 import authorImg from '../../assets/author.jpeg';
+import atletas from '../../assets/atletas.jpg';
 
 import sports from '../../services/data';
 
@@ -51,6 +52,15 @@ const Home: React.FC = () => {
       </Sports>
 
       <Footer>
+        <Link style={{background: '#fff'}} to='/register-athlete'>
+          <img src={atletas} alt='Atletas' />
+          <div>
+            <strong style={{color: '#3d3d4d'}}>Páginas dos Atletas</strong>
+          </div>
+
+          <FiChevronRight style={{color: "#cbcbd6"}} size={20} />
+        </Link>
+
         <Link to='/author'>
           <img src={authorImg} alt='João Eliandro' />
           <div>
